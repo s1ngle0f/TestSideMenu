@@ -8,5 +8,5 @@ import com.example.testsidemenu.db.model.AnyInfo;
 
 @Database(entities = {AnyInfo.class}, version = 1)
 public abstract class LocalDatabase extends RoomDatabase {
-    public abstract AnyInfoDao achivementImageDao();
+    public abstract AnyInfoDao anyInfoDao();
 }

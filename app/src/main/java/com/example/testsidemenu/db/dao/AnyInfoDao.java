@@ -12,7 +12,7 @@ import java.util.List;
 @Dao
 public interface AnyInfoDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    void insert(AnyInfoDao anyInfoDao);
+    void insert(AnyInfo anyInfo);
 
     @Query("SELECT * FROM any_info")
     List<AnyInfo> getAllAnyInfo();
